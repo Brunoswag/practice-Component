@@ -1,9 +1,9 @@
-import {Course} from "../model/course";
+import { Course } from "../model/course";
 
-export const COURSES:Course[] = [
+export const COURSES: Course[] = [
     {
         id: 1,
-        title : "CSci 160: Computer Science - I",
+        title: "CSci 160: Computer Science - I",
         url: 'https://www.ndsu.edu/themes/ndsu/logo.svg',
         description: "A introductory programming class",
         level: '100 level',
@@ -51,5 +51,5 @@ export const COURSES:Course[] = [
         level: '300 level',
         credits: 3
     },
- 
+
 ];
